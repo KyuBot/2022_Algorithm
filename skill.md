@@ -35,4 +35,9 @@
            return answer
        ```
 
-   
+   - 숫자 정렬 key 활용
+
+     - a = sorted(arr, key=lambda x:x[n])
+     
+   - enumerate(arr) => (index, value) 출력
+
