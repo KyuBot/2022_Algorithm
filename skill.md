@@ -40,4 +40,32 @@
      - a = sorted(arr, key=lambda x:x[n])
      
    - enumerate(arr) => (index, value) 출력
+   
+   
+   
+2. MYSQL
+
+   - 상위 1번쨰 행 : LIMIT 1;
+
+   - count(*) => null 포함
+
+   - count(컬럼명) => null 포함
+
+   - if(조건, 참, 거짓)
+
+   - 0~23 만들기
+
+     ```sql
+     SET @h=-1;
+     
+     SELECT @h:=@h+1 
+     ...
+     WHERE @h<23;
+     ```
+
+   - IFNULL(컬럼명, 대체값)
+   
+   - 대문자 : UPPER(컬럼명), 소문자 : LOWER(컬럼명)
+   
+   - 날짜 변경 : DATE_FORMAT(DATETIME, '%Y-%m-%d')
 
