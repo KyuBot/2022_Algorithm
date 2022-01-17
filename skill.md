@@ -49,7 +49,7 @@
 
    - count(*) => null 포함
 
-   - count(컬럼명) => null 포함
+   - count(컬럼명) => null 포함 x
 
    - if(조건, 참, 거짓)
 
