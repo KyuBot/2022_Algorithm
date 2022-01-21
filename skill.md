@@ -40,9 +40,16 @@
      - a = sorted(arr, key=lambda x:x[n])
      
    - enumerate(arr) => (index, value) 출력
-   
-   
-   
+
+   - 재귀는 for문 보다 느리고 메모리도 많이 쓴다
+
+     ```python
+     import sys
+     sys.setrecursionlimit(10**6)
+     
+     재귀 제한을 늘려준다
+     ```
+
 2. MYSQL
 
    - 상위 1번쨰 행 : LIMIT 1;
