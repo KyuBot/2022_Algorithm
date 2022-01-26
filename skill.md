@@ -40,9 +40,27 @@
      - a = sorted(arr, key=lambda x:x[n])
      
    - enumerate(arr) => (index, value) 출력
-   
-   
-   
+
+   - 소수를 구할때 1~n까지 구하는게 아니라 1~sqrt(n) 까지 구해야 빠르게 나온다!
+
+   - 함수안에 함수 변수
+
+     ```python
+     def a():
+     	b = 0
+     	def c():
+     		nonlocal b
+     ```
+
+   - 재귀는 for문 보다 느리고 메모리도 많이 쓴다
+
+     ```python
+     import sys
+     sys.setrecursionlimit(10**6)
+     
+     재귀 제한을 늘려준다
+     ```
+
 2. MYSQL
 
    - 상위 1번쨰 행 : LIMIT 1;
