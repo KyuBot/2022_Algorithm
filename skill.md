@@ -60,6 +60,18 @@
      
      재귀 제한을 늘려준다
      ```
+     
+   - ```python
+     import collections
+     
+     cache = collections.deque(maxlen=20)
+     
+     이렇게 하면 20의 크기를 가지는 deque 함수가 만들어진다
+     
+     cache.remove(x) => x 를 제거
+     ```
+
+   - 
 
 2. MYSQL
 
@@ -82,8 +94,8 @@
      ```
 
    - IFNULL(컬럼명, 대체값)
-   
+
    - 대문자 : UPPER(컬럼명), 소문자 : LOWER(컬럼명)
-   
+
    - 날짜 변경 : DATE_FORMAT(DATETIME, '%Y-%m-%d')
 
