@@ -71,7 +71,7 @@
      cache.remove(x) => x 를 제거
      ```
 
-   - 
+   - a = "123" 일때, a[:100] 이렇게 해도 out of index가 나오지 않는다.
 
 2. MYSQL
 
