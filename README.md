@@ -4,7 +4,7 @@
 
 ## Programming Language
 
-- JAVA, Python, JavaScript, SQL
+- Python, JavaScript, SQL, JAVA 
 
 ## 알고리즘 사이트
 
